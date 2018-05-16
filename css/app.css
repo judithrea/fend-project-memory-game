@@ -90,6 +90,11 @@ h1 {
     text-align: left;
     width: 345px;
     margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.time {
+    font-size: 20px;
 }
 
 .score-panel .stars {
@@ -108,3 +113,73 @@ h1 {
     float: right;
     cursor: pointer;
 }
+
+/*
+ * Media Queries
+ */
+
+@media screen and (max-width: 690px) {
+    .container #deck {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 625px) and (min-width: 521px) {
+    #deck {
+        min-height: 550px;
+        width: 550px;
+    }
+
+    #deck .card {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+@media screen and (max-width: 520px) and (min-width: 433px) {
+    #deck {
+        min-height: 450px;
+        width: 450px;
+        padding: 28px;
+    }
+
+    #deck .card {
+        max-width: 80px;
+        max-height: 80px;
+    }
+}
+
+@media screen and (max-width: 433px) and (min-width: 361px) {
+    #deck {
+        min-height: 350px;
+        width: 350px;
+        padding: 20px;
+    }
+
+    #deck .card {
+        max-width: 70px;
+        max-height: 70px;
+    }
+
+    .score-panel {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    #deck {
+        min-height: 350px;
+        width: 350px;
+        padding: 18px;
+    }
+
+    #deck .card {
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .score-panel {
+        padding-right: 20px;
+    }
+}
+

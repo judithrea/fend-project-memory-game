@@ -2,19 +2,26 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+* [Description](#description)
+* [Instructions](#Instructions)
+* [Features](#features)
+
+
+## Description
+
+The **goal** is to match all the cards with their respective pairs. 
+In this version of the game a **timer** and a **star rating** functionality have been added to encourage player implication. 
+To that end as well, a pop-up **modal** shows up at the end of each game to give feedback and congratulate the player. 
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+The game starts when the player clicks on a card. Then, the timer starts and the amount of moves (two clicks are one move) is monitored in order to rate the memory and/or performance of the player. The more moves the player makes, the fewer stars they get.
+When all cards have been matched the game ends. Finally, a modal appears with the information of the game (moves, star rating and time) and asks the player if they want to play again.
 
-To get started, open `js/app.js` and start building out the app's functionality
+## Features
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+- Responsive design across all screens and devices
 
-## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+
